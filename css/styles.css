@@ -4,6 +4,7 @@
 * Basic Layout of website
 *
 */
+
 html, body {
   height: 100%;
   margin: 0px 10px 0px 10px;
@@ -108,7 +109,6 @@ a {
    max-height: 64px;
 }
 
-#brand {
-   -vendor-animation-delay: 2s;
+.image {
+   width: 100px;
 }
-

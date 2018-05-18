@@ -1,55 +1,101 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF8"/>
+    	<meta charset="UTF8"/>
+    	<link href="css/sm-core-css.css" rel="stylesheet" type="text/css" />
+    	<link href="css/sm-clean/sm-clean.css" rel="stylesheet" type="text/css" />
 		<link rel="icon" type="image/png" href="asset/icon1.png" />
 		<title>Projet Street Art</title>
-		<link rel="stylesheet" type="text/css" href="css/art.css"/>.
-        <link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/art.css"/>
+		<link rel="stylesheet" type="text/css" href="css/coment.css"/>
+    	<script  src="js/tech.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Anton|Covered+By+Your+Grace|
-		Englebert|Gamja+Flower|Love+Ya+Like+A+Sister|Oregano|Princess+Sofia|Shadows+Into+Light" 
-		rel="stylesheet">
+		Englebert|Gamja+Flower|Love+Ya+Like+A+Sister|Oregano|Princess+Sofia|Shadows+Into+Light" rel="stylesheet">
+    	<link rel="stylesheet" href="css/icons-fonts.css" >	
+    	<link rel="stylesheet" href="css/bootstrap1.min.css"> 
+    	<link rel="stylesheet" type="text/css" href="css/header.css"/>
+   	 	<link rel="stylesheet" href="css/boot/css/bootstrap.css">		
+    	<link rel="stylesheet" href="css/style.css" >
 	</head>
-	<body style="background-image: url(asset/graf6.jpg);"> 
-		<h1>Street Art</h1>	
-		<div>
-		<div class="header">
-			<div class="more">
-                <ul>   
-						<li><a href="index.html">Retour</a></li>
-						<li><a href="tahiti.html">Tahiti</a></li>
-						<li><a href="metropole.html">Métropole</a></li>
-						<li><a href="tech.html">Techniques & Supports</a></li>
-						<li><a href="artvan.html">Art & Vandalisme</a></li>
-                        <li><a href="art.html">Histoire</a></li>                               
-                </ul>
-            </div>
-		</div>
-    </div>
-    <br><br>
-			<h3>C O N T A C T S</h3>
-    <form name="MonFormulaire" methode="post" action="traitement.php">
-<table >
-<tr><td>Prénom</td>
-    <td><input type="text" name="prenom"></td></tr>
-<tr><td>Nom</td>
-    <td><input type="text" name="nom"></td></tr>
-<tr><td>Age<name="age"></td>
-  <td><select><option>- 20 ans</option>
-    <option>+ 20 ans</option>
-    <option>+ 40 ans</option>
-</select></td></tr>
-<tr><td>Mail</td><td><input type="text" name="mail"></td></tr>
-<tr><td>Observations</td><td><textarea cols="50" row="4"></textarea></td></tr>
-<br><br>
-<tr><td><input type="submit" name="Nom" Value="Envoyer"></td>
-    <td><input type="submit" name="Nom" Value="Ajouter"></td></tr>
-</table>
-</form>
-    <footer class="footercenter"><h4>Lien à voir absolument!!!</h4>
-        <figure>
-            <img class="footerimg" src="asset/icon1.png"url="https://www.fatcap.com/graffiti-styles.html"/>
-        </figure>
-    </footer>
-	</body>
+	<body>
+      <header class="img-haut" >
+        <ul class="nav justify-content-center"style="font-size:30px;">
+          <li class="nav-item">
+            <a class="nav-link"  href="index.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="art.html">Histoire</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tahiti.html">Tahiti</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tech.html">Techniques</a>
+          </li>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="artvan.html">Art & Vandalisme</a>
+          </li>
+		</ul>
+		<h2><strong>CONTACTS</strong></h2>
+		</header>
+		<section  class="form"><h2>Des questions, remplis le formulaire ci-dessous!!</h2>
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-7">
+    				<form name="MonFormulaire">
+						<table>
+							<tr><td>Prénom</td>
+								<td><input type="text" name="prenom"></td>
+							</tr>
+							<tr><td>Nom</td>
+								<td><input type="text" name="nom"></td>
+							</tr>
+							<tr>
+								<td>Age<name="age"></td>
+  								<td>
+									<select>
+										<option>- 20 ans</option>
+    									<option>+ 20 ans</option>
+    									<option>+ 40 ans</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td>Mail</td>
+								<td>
+									<input type="text" name="mail">
+								</td>
+							</tr>
+							<tr><td>Observations</td>
+								<td>
+									<textarea cols="50" row="4"></textarea>
+								</td>
+							</tr><br><br>
+							<tr><td></td>
+								<td>
+									<input type="submit" name="Nom" Value="Go">
+								</td>
+							</tr>
+						</table>
+					</form>
+				</div>
+			<div class="col-1"></div>
+			<div class="col-3"><img  src="asset/chica.jpg" width="400px" height="200px"/></div>
+			</div>
+		</section>
+		<section class="bas"><h2>Vous pouvez aussi naviguez sur ces liens!</h2>
+			<footer style="color: white;" class="footer center w-100">
+			  	<div class='row'>
+					<div class="col-2"></div>
+						<div class="col-2"><a href="https://www.fatcap.com/graffiti-styles.html"><h2>fatcap</h2></a></div>
+					<div class="col-2"></div>
+						<div class="col-2"><a href=" http://en.wikipedia.org/wiki/Graffiti "><h2>Graffiti</h2></a></div>
+					<div class="col-2"></div>
+						<div class="col-2"><a href="  http://www.ekosystem.org/ "><h2>Tag</h2></a></div>
+			  	</div>
+			  		<img class="footer-img w-100" src="asset/top header.png"/>
+			</footer>
+		</section>
+</body>
 </html>

@@ -1,11 +1,3 @@
-.header{
-    position: relative;
-    left: 0;
-    right: 0;
-    height: 30px;
-	color: inherit;
-    line-height: 10px;
-}
 
 .more ul{
 	text-transform:uppercase;
@@ -44,10 +36,65 @@
 }
 
 
-header1
-{
-float: left;
-width: 100%;
-height: 10%;
-background-color: grey;
+
+section{
+	background-color: rgba(255, 255, 255,0.6);
+	margin: 70px;
+	text-decoration-color: #000;
+
 }
+
+h2, li{
+	text-shadow: 2px 2px 3px black;
+}
+
+.bas
+{
+	background-color: rgba(255, 255, 255,255);
+	margin: 20px;
+}
+
+.haut
+{
+	background-color: rgba(255, 255, 255,0.5);
+	margin: 20px;
+}
+
+
+.nav>li{
+	position:relative;
+	display:block}
+	.nav>li>a{
+		position:relative;
+		display:block;
+		padding:10px 15px
+	}
+	.nav>li>a:focus,.nav>li>a:hover{
+		text-decoration:none;
+		background-color:#eee
+	}
+		.nav>li.disabled>a{
+			color:#777
+		}
+		.nav>li.disabled>a:focus,.nav>li.disabled>a:hover{
+			color:#777;
+			text-decoration:none;
+			cursor:not-allowed;
+			background-color:transparent
+		}
+		.nav .open>a,.nav .open>a:focus,.nav .open>a:hover{
+			background-color:#eee;border-color:#337ab7
+		}
+		.nav .nav-divider{
+			height:1px;
+			margin:9px 0;
+			overflow:hidden;
+			background-color:#e5e5e5
+		}
+		.nav>li>a>img{
+			max-width:none
+		}
+
+		video{
+			width:400%;
+		}
